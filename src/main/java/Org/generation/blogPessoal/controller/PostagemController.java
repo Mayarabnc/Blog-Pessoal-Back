@@ -17,7 +17,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import Org.generation.blogPessoal.model.Postagem;
 import Org.generation.blogPessoal.repository.PostagemRepository;
-import jakarta.validation.Valid;
 
 @RestController   //Indica para o spring que essa classe se trata de um controlador
 @RequestMapping("/postagens")  //Defina por qual URI que essa classe será acessada
